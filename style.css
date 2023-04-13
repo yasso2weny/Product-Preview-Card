@@ -1,0 +1,79 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+  }
+  
+  .flex-container {
+    width: 600px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 2%;
+  
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .left img {
+    width: 300px;
+    height: 450px;
+    border-radius: 2% 0 0 2%;
+  }
+  
+  .right {
+    width: 280px;
+    height: 450px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 15px;
+  }
+  
+  .oldprice,
+  .newprice {
+    display: inline;
+    vertical-align: baseline;
+  }
+  
+  h1 {
+    color: hsl(212, 21%, 14%);
+    font-family: "Fraunces", serif;
+  }
+  
+  p {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Button Styling*/
+  .button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 12px 60px; 
+    cursor: pointer; 
+    margin-top: 21.44px;
+  }
+  
+  .icon {
+    display: inline-block; 
+    width: 20px; 
+    height: 20px; 
+    margin-right: 5px; 
+  }
+  
+  .text {
+    display: inline-block; 
+    font-size: 14px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .button:hover {
+    background-color: hsl(158, 36%, 18%);
+  }
+  
